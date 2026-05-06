@@ -19,7 +19,7 @@ class Temperature {
   }
 
   set fahrenheit(value) {
-    this.celcius = (value - 32) / 1.8;
+    this.#c = (value - 32) / 1.8;
   }
 }
 

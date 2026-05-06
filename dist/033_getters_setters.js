@@ -16,7 +16,7 @@ class Temperature {
         return this.#c * 1.8 + 32;
     }
     set fahrenheit(value) {
-        this.celcius = (value - 32) / 1.8;
+        this.#c = (value - 32) / 1.8;
     }
 }
 const temp = new Temperature(100);
